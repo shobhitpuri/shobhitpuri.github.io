@@ -18,7 +18,7 @@ email: shobhit.iiita@gmail.com
 stackoverflow_username: 1306419/shobhit-puri
 twitter_username : shobhit_puri
 copyright_name: Shobhit Puri
-rss : true
+# rss : true
 
 # used for portfolio on home page
 collections:
