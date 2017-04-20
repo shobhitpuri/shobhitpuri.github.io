@@ -9,7 +9,6 @@ google_analytics: UA-37853145-1
 disqus_url: shobhitpuri.com
 disqus_id: shobhitpuri
 # register on feedburner and replace this url. Deleting the value will remove it from footer.
-# feedburner_url: https://feedburner.google.com/fb/a/mailverify?uri=programmer-wannabe&amp;loc=en_US
 
 # footer details. Deleting the value would remove it from footer.
 github_username:  shobhitpuri
@@ -18,7 +17,6 @@ email: shobhit.iiita@gmail.com
 stackoverflow_username: 1306419/shobhit-puri
 twitter_username : shobhit_puri
 copyright_name: Shobhit Puri
-# rss : true
 
 # used for portfolio on home page
 collections:
