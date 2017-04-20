@@ -9,7 +9,7 @@ description: >-
   href="https://play.google.com/store/apps/details?id=com.nthgensoftware.traderev.android">
   TradeRev android app</a> on play store.
 team: Multiple
-date: March 2015
+date: March 2016
 category: Android
 published: true
 ---
