@@ -2,7 +2,9 @@
 anchor: projectant
 title: Alter Font Widget
 image: img/portfolio/FontSize.png
-team: Along with <a href="">Namita Shah</a>
+team: >-
+  Along with <a href="https://www.linkedin.com/in/namitashah"
+  target="_blank">Namita Shah</a>
 date: August 2016
 category: Android
 published: true
