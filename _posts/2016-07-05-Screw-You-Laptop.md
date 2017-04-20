@@ -1,29 +1,45 @@
 ---
-layout:     post
-title:      "Screw you laptop! Literally!"
-subtitle:   "First rule of engineering: only you repair your electronics!"
-date:       2016-07-05 09:37:00
-author:     "Shikher Verma"
-header-img: "img/posts/screw-laptop-bg.jpg"
+layout: post
+title: Welcome to Germany - The funny and not-so-funny story!
+subtitle: Welcome to Germany - The funny and not-so-funny experience!
+date: 2014-04-05T09:37:00.000Z
+author: Shobhit Puri
+header-img: img/posts/germany_welcome.jpg
 comments: true
-tags: [ CodeMonkey ]
+tags:
+  - Life
+published: true
 ---
-*Warning: Stunts performed by crazy roboticist ! Don't try at home :P*
+**Location:** Germany
 
-Recently both the hinges of my laptop broke. Although I had already opened up all the screws my laptop before, this time I was going go another level up. Last time I had added RAM to my laptop but since it does not have a RAM access slot at the back, I had to unassemble everything above it to get to the RAM slot, thanks to the guidance of [ninjaduck](http://www.ninjaducks.in/) and [hackmaestro](https://hackmaster.in/blog/) my laptop survived that operation. Being involved in the building of [AUV-IITK](http://auviitk.com), I had also learned to use a lot of big toys in [robotics club](http://students.iitk.ac.in/roboclub/). This time I was going to combine these too to perform the ultimate laptop fix.  
+**_The funny story:_**
 
-First things first. Getting the right tools. Any task becomes a breeze when you have the right tools to do it. Luckily I had robotics club and magic drawer at my disposal.
-Wait! Let me tell you about the magic drawer. Hackmaestro has a drawer right above his seat in lab, which has all the gadgets you could ever think of. And I mean it. Really. From laptop repair tools to kindle to nfc tags. Whats the last coding book you searched for ? I bet its there in that drawer. Its like a real life implementation of doremon's pocket!
-Anyways I got what I needed. ![laptop-repair-tools](/img/posts/laptop-repair-tools.jpg)
+- I was visiting Germany for pursuing an internship. The very first day of university, I went to use the washroom. When I went near the washroom, on one door it was written "Herren" and on other door it was written "Damen". There were no other images. I just began to learn German and knew that many words in German sound like they've been derived from English. Since "Herren" seems to be derived from "Her" and "Damen" from "Men", I went inside Damen. I used the washroom and kept using it for more than a week. I was wondering why they don't have those "standing" urinals for men. It was after a week, I learned that "Damen" actually stands for "Her" and "Herren" for "Him". Luckily I never encountered any women inside the "Damen" washroom whenever I used it.         
+![germany_washroom.jpg]({{site.baseurl}}/img/posts/germany_washroom.jpg)
 
-Both the hinges were jam in there position due to dust. I figured this was the reason why it broke. When I tried to close the screen instead of moving with the hinge it just broke off. And now the structure that holds the hinge with the display was gone. I tried to loosen the hinge nut so that the hinge is movable again but it seemed that had been jammed too! Maybe it requires a little more torque. So I switched to a bigger tool. But still no luck. Now I got frustrated. I came back with the biggest wrench the club had. ![laptop-repair-tools](/img/posts/nut-crackers.jpg)
+_**The not so funny story: Welcome to Germany!**_
+(#Scary #Adventurous #Lost #Forest #Snow #Day1)
 
-This time it shifted a little and stuck again. After 10 minutes of sweating and cursing I figured was rotating it in the wrong direction! ![poker-face](http://3.bp.blogspot.com/-P0jLdct71dQ/T_68DtdyVJI/AAAAAAAAA1E/KsLqdOZrb_A/s1600/Face+palm.jpg)
+- When I arrived at the airport in the morning, it was -10 degree outside. It was the first time, I was experiencing temperatures below 0 degree. I had a good sleep in the flight but skipped the dinner, so was very hungry. The moment I reached Frankfurt airport, I called my relative in Karlsruhe city(150 kms from Frankfurt) and told him that I've arrived on airport and will be reaching home soon. Keep the food ready. I was alone and having 2 large suitcases( 23 kg ones), 1 small suitcase(13 kg), 1 extra bag and 1 laptop bag.
 
-Well, once I recovered from that disappointment, I gathered up to courage to actually do the deed. I was gonna drill through the plastic behind the hinge, where once the hinge supporting structure used to be. This felt really exciting! I was a little nervous about it, since I could potentially damage my laptop permanently. It felt like I was back in Xth standard, partitioning my hardisk to dual boot with the risk of permanently loosing all the data. Or when I rooted my first android the following year. I guess I like jumping into these situations :D
-I didn't mess up this time. ![drilled-laptop](/img/posts/drilled-laptop.jpg)
+- **The first achievement**: From the train station near the airport, I had to go to to Friedrichtal( Baden) station. I had written it down on a piece of paper. When I went to purchase the ticket, I showed the lady this paper and asked her to give me a ticket for this place. She gave me a ticket and explained me how I can reach the place. She explained that I need to change the train thrice before I could reach my destination. Between each connecting train, there was only a difference of 2 or 3 minutes. I was already struggling carrying 60 kg luggage alone. After boarding the train, there came my first stop. My train arrived on 2nd platform and my connecting train was on 11th platform. I went out and was literally falling while running with this much luggage. Somehow I reached the train but the S-bahn had already started. Driver saw me that I was falling all over the place with my luggage. To my surprise, he stopped the bahn and sent somebody to help me with luggage. There it was my first achievement after reaching Germany. Still there were 2 more stations. Here I was in this S-bahn:
 
-Finding bolt in robotics club is easy but finding a fitting nut is near impossible! I though I would have to go to the market to get the correct size, but you can always recycle parts from old robots. I hope the old chess playing robot team does read this blog :P because the only fitting nuts I found were bolted in their robot.
+![germany_train.png]({{site.baseurl}}/img/posts/germany_train.png)
 
-After a bit of cleaning and filling off extra screw threads this is what it looks like now ![laptop-finished-front](/img/posts/laptop-finished-front.jpg)
-![laptop-finished-back](/img/posts/laptop-finished-back.jpg) Its not the neatest design. But it looks cool. :)
+
+- **The romantic feeling**:  Similar thing happened at second stop. I was amazed to see how helpful the drivers were. On my way to the third stop, I was so much exited to see fields and tall dark trees covered with snow. It was like a dark forest with very few homes. It felt so romantic. I felt as if I've seen them in movies. Then I recalled that I've seen this kind of place in the very famous Indian movie Dilwale Dulhania Le Jayenge(one of my favorites). I was enjoying the journey. I was wondering how lucky my relatives are. They are living in such a dreamy place.    
+
+![germany_train_2.png]({{site.baseurl}}/img/posts/germany_train_2.png)
+
+
+- **The Scary part**: It had been almost 2 and half hours. I  started asking in people around me about my final stop. Since all the stop names were in German, they all looked same and confusing. I could not even understand the driver, since he was only announcing in German. Somehow a stop named "Friedrichtal" arrived and I got down. There I was, in the midst of forest covered with snow. There was no station. Just a railway line and a small shed to stand under, in case of rain. I was supposed to call my relative on reaching this station. Forget about telephone, I could not see even a single human being there. There was snow and trees all around me. I was very tired and not to mention hungry and thirsty. I had not eaten anything since last 14 hours, not even had a drop of water. I was having this awful load of luggage and was unable to walk further. In addition to being tired, the whole ground was covered with snow and I was wearing sports shoes in this -10 degree or even lesser temperature. Standing in the middle of forest, there was a road going from near the railway tracks. I started waiting for vehicles to seek help but even after half an hour none came that way. It was getting dark and a bit scary. I gathered some strength and decided to move from there. I could see some buildings from far away. I thought I'll go to that place and knock there. Maybe someone will come out and help. I was barely managing to walk. Somehow I reached near those houses. There were 2-3 houses near that place. I knocked on the first door with hope in my eyes having faith that I'll be able to make a phone call. No one came out even after knocking for 20 mins. I went to all the other houses and knocked but again no luck. I was scared enough knocking at stranger's houses in the middle of a forest but I had no choice. Finally after waiting for sometime, I started walking again in search of a phone. I knew my relatives were waiting. It was late afternoon. I was now half dead, with no energy left. I was cursing myself for not eating when the pretty air hostess was waking me up in the airplane for dinner.   
+
+![germany_train_3.png]({{site.baseurl}}/img/posts/germany_train_3.png)
+
+
+- **Rays of Hope**: I was also laughing at myself. This all was looking like an adventurous dream, where I am in the middle of forest, I can't see people around and it is getting dark. Somehow, I was still feeling thrilled and excited that I'm experiencing these events which I never thought of. Only positivity could hold me up. So, I again started walking to search for some help. Suddenly I heard a car passing by and I shouted at the driver to stop. The person stopped the car. I told him my story and requested him to let me make a call. Unfortunately, he said that he is in hurry and won't be able to help me. Nevertheless, there was another car which I could see coming behind that one. It turned out that he didn't have any phone. Although on a second thought he was driving a Mercedes. Loosing all hope, I just kept walking and praying to God for help and asking him the reason for my grand welcome to Germany. Suddenly, a car stopped. A couple came out of the car and asked me if I needed help? I told them the whole story. They said that I was at very far from the place where I was supposed to be. It turns out there are many stations named Friedristal but are in different regions. The lady at the airport gave me a ticket for wrong place. They agreed to helped me. They kept my luggage in their car, asked me to drink some water and take some rest. I had no choice but to trust them. In the car, I asked them what made them stop and help me. They said that their own son has gone to an another country for 6 months internship. Seeing me (a foreigner) struggling in this weather with all the luggage, it reminded them of their son who has gone to another country. They said that they won't want their son to be in such a position. So they stopped to help me.
+Final moments of relief: They drove me to the nearest tourist place and finally I made a call to my relative. He was just about to call police and report that I am lost. My parents were very worried back in India. It was evening time and they had no clue since morning that where I am. The couple helped me carry my luggage to nearest station, bought me a ticket and bid me good bye. I felt I was indebted to them. How I can ever thank them for what they did for a stranger.
+
+Finally I met my relative at a station. I came to know that I was actually in the Black Forest throughout and its really the place where Dilwale Dulhania Le Jayenge was filmed. It was one of the adventurous experiences. I ate after 20 hours finally and was relieved. What a welcome it was! Being lost in black forest on the very first day, in a new country. It later turned out to be coldest day of that month!
+
+P.S: You can read the whole story on Quora as well as an answer to [What are some funny/interesting things that have happened to you while traveling?](https://www.quora.com/What-are-some-funny-interesting-things-that-have-happened-to-you-while-traveling/answer/Shobhit-Puri?srid=37Tt) question.
