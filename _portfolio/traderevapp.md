@@ -1,5 +1,5 @@
 ---
-anchor: qrcontactshare
+anchor: traderevapp
 title: TradeRev Android App
 image: img/portfolio/TradeRev_Screenshots.png
 description: >-

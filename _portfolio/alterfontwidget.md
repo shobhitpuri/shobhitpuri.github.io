@@ -1,5 +1,5 @@
 ---
-anchor: projectant
+anchor: alterfontwidget
 title: Alter Font Widget
 image: img/portfolio/FontSize.png
 team: >-
