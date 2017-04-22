@@ -1,6 +1,6 @@
 ---
 anchor: mindfulmeapp
-title: MindfulMe Android App
+title: MindfulMe App
 image: img/portfolio/MindFulMe.png
 description: >-
   The app helps individuals with addictive disorders identify triggers associated with cravings. If user enters a vulnerable zone, it intelligently reminds user to engage in an intervention strategy.
