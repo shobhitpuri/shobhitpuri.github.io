@@ -1000,6 +1000,7 @@ $('#name').focus(function() {
 // make all images responsive
 $(function() {
 	$("img").addClass("img-responsive");
+    $('#img-stackoverflow').removeClass("img-responsive");
 });
 
 // responsive tables
