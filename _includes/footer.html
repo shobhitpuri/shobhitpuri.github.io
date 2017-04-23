@@ -14,26 +14,6 @@
                         </a>
                     </li>
                     {% endif %}
-                    {% if site.twitter_username %}
-                    <li>
-                        <a target="_blank" href="https://twitter.com/{{ site.twitter_username }}">
-                            <span class="fa-stack fa-lg">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
-                            </span>
-                        </a>
-                    </li>
-                    {% endif %}
-                    {% if site.facebook_username %}
-                    <li>
-                        <a target="_blank" href="https://www.facebook.com/{{ site.facebook_username }}">
-                            <span class="fa-stack fa-lg">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
-                            </span>
-                        </a>
-                    </li>
-                    {% endif %}
                     {% if site.github_username %}
                     <li>
                         <a target="_blank" href="https://github.com/{{ site.github_username }}">
@@ -44,12 +24,31 @@
                         </a>
                     </li>
                     {% endif %}
+
+                    {% if site.twitter_username %}
+                    <li>
+                        <a target="_blank" href="https://twitter.com/{{ site.twitter_username }}">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    {% endif %}
                     {% if site.stackoverflow_username %}
                     <li>
                         <a target="_blank" href="https://stackoverflow.com/users/{{ site.stackoverflow_username }}">
+                            <img src="http://stackoverflow.com/users/flair/1306419.png?theme=dark" width="208" height="58" alt="Profile for Shobhit Puri at Stack Overflow, Q&amp;A for professional and enthusiast programmers" title="Profile for Shobhit Puri at Stack Overflow, Q&amp;A for professional and enthusiast programmers">
+                        </a>
+                    </li>
+                    {% endif %}
+
+                    {% if site.facebook_username %}
+                    <li>
+                        <a target="_blank" href="https://www.facebook.com/{{ site.facebook_username }}">
                             <span class="fa-stack fa-lg">
                                 <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-stack-overflow fa-stack-1x fa-inverse"></i>
+                                <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
                             </span>
                         </a>
                     </li>
