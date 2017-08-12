@@ -2,7 +2,7 @@
 layout: post
 title: git yourcommand
 subtitle: How to write your own git commands?
-date: 2014-04-05T09:37:00.000Z
+date: 2017-08-10T09:37:00.000Z
 author: Shobhit Puri
 header-img: img/posts/git-refresh/git-your-command-bg.jpeg
 comments: true
