@@ -13,6 +13,7 @@ published: true
 
 ## git yourcommand
 
+
 #### What are your most frequent actions using git?
 Can you think of certain set of commands that you use daily with git and maybe multiple times a day? One of the most frequent actions I do is to commit code and push to remote branch multiple times a day. Whenever I feel I have reached a state that I would like to remember, I commit. 
 
@@ -29,7 +30,7 @@ When the team is big, the master branch might update regularly. Before each comm
 I thought that for a task that I do frequently everyday, "There is got to be a better way. And there is Kevin!"
 
 <p align="center">
-  <img src ="img/posts/git-refresh/better-way-joe.gif" />
+  <img src ="{{site.baseurl}}/img/posts/git-refresh/better-way-joe.gif" />
 </p>
 
 #### Any shortcuts?
