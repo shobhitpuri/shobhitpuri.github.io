@@ -14,7 +14,7 @@ published: true
 <a href="#what-are-your-most-frequent-actions-using-git">What are your most frequent actions using git?</a><br>
 <a href="#isnt-it-too-many-words-to-type">Tired of typing?</a><br>
 <a href="#shortcuts">Are there shortcuts?</a><br>
-<a href="#one-command-to-do-it-all-git-refresh-master">Like one line solutions?</a><br>
+<a href="#one-command-to-do-it-all---git-refresh-master">Like one line solutions?</a><br>
 <a href="#github-repository">Just give the me the GitHub Repository!</a><br>
 
 #### What are your most frequent actions using git?
