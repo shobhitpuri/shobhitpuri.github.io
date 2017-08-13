@@ -11,17 +11,17 @@ tags:
 published: true
 ---
 
-#### Index
+### Index
 - <a href="#what-are-your-most-frequent-actions-using-git">What are your most frequent actions using git?</a><br>
 - <a href="#isnt-it-too-many-words-to-type">Tired of typing?</a><br>
 - <a href="#shortcuts">Are there shortcuts?</a><br>
 - <a href="#one-command-to-do-it-all---git-refresh-master">Like one line solutions?</a><br>
 - <a href="#github-repository">Just give the me the GitHub Repository!</a><br>
 
-#### What are your most frequent actions using git?
+### What are your most frequent actions using git?
 Can you think of certain set of commands that you use daily with git and maybe multiple times a day? One of the most frequent actions I do is to commit code and push to remote branch multiple times a day. Whenever I feel I have reached a state that I would like to remember, I commit. 
 
-#### Isn't it too many words to type?
+### Isn't it too many words to type?
 When the team is big, the master branch might update regularly. Before each commit, I updated my local with the master. This prevents conflicts when making pull requests. I had to do the following six steps many times a day. Instead of `master` branch in the example below, it can be any base branch on which multiple developers in your team are working simultaneously.
 	
 	git stash
@@ -37,38 +37,38 @@ I thought that for a task that I do frequently everyday, "There is got to be a b
   <img src ="{{site.baseurl}}/img/posts/git-refresh/better-way-joe.gif" />
 </p>
 
-#### Shortcuts
-* `&&`: How about we use `&&` in between commands on terminal? So all commands can be in one line. :unamused:
+### Shortcuts
+**&&**: How about we use `&&` in between commands on terminal? :unamused:
 
-        git stash && git checkout master && git pull --rebase origin master &&
-        git checkout current-branch && git rebase master && git stash apply
+    git stash && git checkout master && git pull --rebase origin master &&
+    git checkout current-branch && git rebase master && git stash apply
 
 
-* `alias`: `&&` doesn't help much. How about we shorten each command? Meh! :expressionless:
+**alias**: `&&` doesn't help much. How about we shorten each command? Meh! :expressionless:
         
-        git status -> git st
-        git checkout master -> git co master
-        git pull --rebase origin master -> git pro master
-        git stash apply -> git sap
+    git status -> git st
+    git checkout master -> git co master
+    git pull --rebase origin master -> git pro master
+    git stash apply -> git sap
 
-    If you open `~/.gitconfig` file and add the following mapping, you can create alias of the git commands:
+If you open `~/.gitconfig` file and add the following mapping, you can create alias of the git commands:
 
-        [alias]
-            st = status
-            co = checkout
-            pro = pull --rebase origin
-            sap = stash apply
+    [alias]
+        st = status
+        co = checkout
+        pro = pull --rebase origin
+        sap = stash apply
 
-    With the shortcuts, the chain of command becomes: 
+With the shortcuts, the chain of command becomes: 
 
-        git stash && git co master && git pro master && git co current-branch && git rebase master && git sap
+    git stash && git co master && git pro master && git co current-branch && git rebase master && git sap
 
-    `alias`'s are handy when using one line commands but not helping for our case.
+`alias`'s are handy when using one line commands but they don't seem to be helping in our case.
 
-#### One command to do it all - `git refresh master`
-Read it as "Git, refresh my current branch from remote master." Interesting! Lets see how to create a script and setup the script in two small steps. 
+### One command to do it all - `git refresh master`
+Read it as "Git, refresh my current branch from remote master." Woah! Lets see how to create a script and setup the script in two small steps. 
 
-  - Step 1: Create a file called `git-yourcommand` (`git-refresh` in our case) and keep it in any folder, lets call the folder `gitScripts`, kept in `/Users/user/Documents/` folder. Write the following in the `git-refresh` file:
+  - Step 1: Create a file called `git-yourcommand` (`git-refresh` in our case) and keep it in any folder, lets call the folder `gitScripts`. Lets keep the file in `/Users/user/Documents/`. Write the following in the `git-refresh` file:
 
           #!/bin/sh
 
@@ -112,9 +112,9 @@ Read it as "Git, refresh my current branch from remote master." Interesting! Let
 
           source ~/.bash_profile
 
-    You are done!
+    And we are done!
 
-#### GitHub Repository
+### GitHub Repository
 You can find the scripts for the `git refresh` and other similar custom commands like `git switch` and `git pushremote` on the following git repository: [https://github.com/shobhitpuri/git-refresh](https://github.com/shobhitpuri/git-refresh)
 
-You can create your own commands by following the above steps. Just create a new file `git-yourcommand` and write the commands in the shell script. You can pass the params as required. Feel free to write your feedback and let me know what awesome shortcuts have you created.
+You can create your own commands by following the above steps. Just create a new file `git-yourcommand` and write the commands in the shell script. You can pass the params as required. Feel free to write your feedback and let me know what awesome custom commands have you created.
