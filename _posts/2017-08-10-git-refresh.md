@@ -11,6 +11,7 @@ tags:
 published: true
 ---
 
+#### Index
 <a href="#what-are-your-most-frequent-actions-using-git">What are your most frequent actions using git?</a><br>
 <a href="#isnt-it-too-many-words-to-type">Tired of typing?</a><br>
 <a href="#shortcuts">Are there shortcuts?</a><br>
