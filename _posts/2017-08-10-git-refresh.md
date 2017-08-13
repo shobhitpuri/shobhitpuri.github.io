@@ -4,7 +4,7 @@ title: git yourcommand
 subtitle: How to write your own git commands?
 date: 2017-08-10T09:37:00.000Z
 author: Shobhit Puri
-header-img: img/posts/git-refresh/git-your-command-bg.jpg
+header-img: img/posts/git-refresh/git-your-command-bg.png
 comments: true
 tags:
   - CodeMonkey
