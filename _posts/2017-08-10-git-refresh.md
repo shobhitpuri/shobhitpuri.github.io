@@ -38,13 +38,13 @@ I thought that for a task that I do frequently everyday, "There is got to be a b
 </p>
 
 #### Shortcuts
-* `&&`: How about we use `&&` in between commands on terminal? So all commands can be in one line Well, :unamused:.
+* `&&`: How about we use `&&` in between commands on terminal? So all commands can be in one line. :unamused:.
 
         git stash && git checkout master && git pull --rebase origin master &&
         git checkout current-branch && git rebase master && git stash apply
 
 
-* `alias`: `&&` doesn't help much. How about we shorten each command. Meh! :expressionless:?
+* `alias`: `&&` doesn't help much. How about we shorten each command? Meh! :expressionless:
         
         git status -> git st
         git checkout master -> git co master
@@ -66,7 +66,7 @@ I thought that for a task that I do frequently everyday, "There is got to be a b
     `alias`'s are handy when using one line commands but not helping for our case.
 
 #### One command to do it all - `git refresh master`
-Read it as "Git, refresh my current branch from remote master." :astonished: Lets see how to create a script and setup the script in two small steps. 
+Read it as "Git, refresh my current branch from remote master." Interesting! Lets see how to create a script and setup the script in two small steps. 
 
   - Step 1: Create a file called `git-yourcommand` (`git-refresh` in our case) and keep it in any folder, lets call the folder `gitScripts`, kept in `/Users/user/Documents/` folder. Write the following in the `git-refresh` file:
 
