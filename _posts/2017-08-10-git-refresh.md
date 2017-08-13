@@ -11,13 +11,12 @@ tags:
 published: true
 ---
 
-## git yourcommand
-
-- [What are your most frequent actions using git?](#What-are-your-most-frequent-actions-using-git?)
-- [Tired of typing?](#Isn't-it-too-many-words-to-type?)
+- [What are your most frequent actions using git?](#what-are-your-most-frequent-actions-using-git)
+- [Tired of typing?](#isnt-it-too-many-words-to-type)
 - [Are there shortcuts?](#shortcuts)
-- [Like one line solutions?](#One-command-to-do-it-all)
-- [Just give the me the GitHub Repo!](#GitHub-Repository)
+- [Like one line solutions?](#one-command-to-do-it-all-git-refresh-master)
+- [Just give the me the GitHub Repo!](#github-repository)
+<br>
 
 #### What are your most frequent actions using git?
 Can you think of certain set of commands that you use daily with git and maybe multiple times a day? One of the most frequent actions I do is to commit code and push to remote branch multiple times a day. Whenever I feel I have reached a state that I would like to remember, I commit. 
@@ -66,8 +65,8 @@ I thought that for a task that I do frequently everyday, "There is got to be a b
 
     `alias`'s are handy when using one line commands but not helping for our case.
 
-#### One command to do it all
-**`git refresh master`** (Read it as "Git, please refresh my current branch from remote master."): How about just one command to do it all? :astonished: Lets see how to create a script and setup the script in two small steps. 
+#### One command to do it all (`git refresh master`)
+Read it as "Git, refresh my current branch from remote master." :astonished: Lets see how to create a script and setup the script in two small steps. 
 
   - Step 1: Create a file called `git-yourcommand` (`git-refresh` in our case) and keep it in any folder, lets call the folder `gitScripts`, kept in `/Users/user/Documents/` folder. Write the following in the `git-refresh` file:
 
@@ -115,6 +114,6 @@ I thought that for a task that I do frequently everyday, "There is got to be a b
 
 
 #### GitHub Repository
-You can find the scripts for the `git refresh` and other similar custom commands like `git switch` and `git pushremote` on the following git repository: https://github.com/shobhitpuri/git-refresh 
+You can find the scripts for the `git refresh` and other similar custom commands like `git switch` and `git pushremote` on the following git repository: [https://github.com/shobhitpuri/git-refresh](https://github.com/shobhitpuri/git-refresh)
 
 You can create your own commands by following the above steps. Just create a new file `git-yourcommand` and write the commands in the shell script. You can pass the params as required. Feel free to write your feedback and let me know what awesome shortcuts have you created.
