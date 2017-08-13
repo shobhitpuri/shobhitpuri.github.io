@@ -38,7 +38,7 @@ I thought that for a task that I do frequently everyday, "There is got to be a b
 </p>
 
 #### Shortcuts
-* `&&`: How about we use `&&` in between commands on terminal? So all commands can be in one line. :unamused:.
+* `&&`: How about we use `&&` in between commands on terminal? So all commands can be in one line. :unamused:
 
         git stash && git checkout master && git pull --rebase origin master &&
         git checkout current-branch && git rebase master && git stash apply
