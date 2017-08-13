@@ -1125,6 +1125,7 @@ img {
   max-width: 100%;
   height: auto;
 }
+.img.emoji { display: inline; height: 1em; width: 1em; margin-bottom: 0.25em; }
 .img-rounded {
   border-radius: 6px;
 }
