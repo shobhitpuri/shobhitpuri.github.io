@@ -11,12 +11,11 @@ tags:
 published: true
 ---
 
-- [What are your most frequent actions using git?](#what-are-your-most-frequent-actions-using-git)
-- [Tired of typing?](#isnt-it-too-many-words-to-type)
-- [Are there shortcuts?](#shortcuts)
-- [Like one line solutions?](#one-command-to-do-it-all-git-refresh-master)
-- [Just give the me the GitHub Repo!](#github-repository)
-<br>
+<a href="#what-are-your-most-frequent-actions-using-git">What are your most frequent actions using git?</a><br>
+<a href="#isnt-it-too-many-words-to-type">Tired of typing?</a><br>
+<a href="#shortcuts">Are there shortcuts?</a><br>
+<a href="#one-command-to-do-it-all-git-refresh-master">Like one line solutions?</a><br>
+<a href="#github-repository">Just give the me the GitHub Repository!</a><br>
 
 #### What are your most frequent actions using git?
 Can you think of certain set of commands that you use daily with git and maybe multiple times a day? One of the most frequent actions I do is to commit code and push to remote branch multiple times a day. Whenever I feel I have reached a state that I would like to remember, I commit. 
@@ -38,13 +37,13 @@ I thought that for a task that I do frequently everyday, "There is got to be a b
 </p>
 
 #### Shortcuts
-* **`&&`**: How about we use `&&` in between commands on terminal? So all commands can be in one line Well, :unamused:.
+* `&&`: How about we use `&&` in between commands on terminal? So all commands can be in one line Well, :unamused:.
 
         git stash && git checkout master && git pull --rebase origin master &&
         git checkout current-branch && git rebase master && git stash apply
 
 
-* **`alias`:** `&&` doesn't help much. How about we shorten each command. Meh! :expressionless:?
+* `alias`: `&&` doesn't help much. How about we shorten each command. Meh! :expressionless:?
         
         git status -> git st
         git checkout master -> git co master
@@ -65,7 +64,7 @@ I thought that for a task that I do frequently everyday, "There is got to be a b
 
     `alias`'s are handy when using one line commands but not helping for our case.
 
-#### One command to do it all (`git refresh master`)
+#### One command to do it all - `git refresh master`
 Read it as "Git, refresh my current branch from remote master." :astonished: Lets see how to create a script and setup the script in two small steps. 
 
   - Step 1: Create a file called `git-yourcommand` (`git-refresh` in our case) and keep it in any folder, lets call the folder `gitScripts`, kept in `/Users/user/Documents/` folder. Write the following in the `git-refresh` file:
@@ -108,10 +107,11 @@ Read it as "Git, refresh my current branch from remote master." :astonished: Let
           # Other existing export statements.
           # End of file
   
-      `source` the file to apply the changes and **you are done!**:
+      `source` the file to apply the changes:
 
           source ~/.bash_profile
 
+    You are done!
 
 #### GitHub Repository
 You can find the scripts for the `git refresh` and other similar custom commands like `git switch` and `git pushremote` on the following git repository: [https://github.com/shobhitpuri/git-refresh](https://github.com/shobhitpuri/git-refresh)
