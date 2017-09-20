@@ -73,3 +73,5 @@ As you can see the ideal solution involves some extra work. Instead of creating 
 
 ### Source Code and Sample Android Application
 You can find the implementation of the library and a sample Android application that is using the library here: <a href="https://github.com/shobhitpuri/custom-google-signin-button" target="_blank">https://github.com/shobhitpuri/custom-google-signin-button</a>. Feel free to give any feedback on the article or library. If you come across any issues, you are more than welcome to create an issue or open a pull request.
+
+***Note: The images used in this article are trademark of Google. They have been just used for instructional purposes.***
