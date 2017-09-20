@@ -1,7 +1,7 @@
 ---
 layout: post
 title: How to change text and theme for Google's Sign-In button in Android?
-subtitle: This post shows a simple way to change the text on Google's Sign-In button using standard `android:text`, which is missing in Google's `SignInButton` and switch between dark and light button themes.
+subtitle: 
 date: 2017-09-20T14:37:00.000Z
 author: Shobhit Puri
 header-img: img/posts/google-signin-button/google-signin-button-bg.png
