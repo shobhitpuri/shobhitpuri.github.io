@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How to change text and theme for Google Sign-In button in Android
+title: How to change text and theme of Google Sign-In button in Android?
 subtitle: ""
 date: 2017-09-20T14:37:00.000Z
 author: Shobhit Puri
