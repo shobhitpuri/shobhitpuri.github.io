@@ -20,7 +20,7 @@ published: true
 - <a href="#source-code-and-sample-android-application">Source Code / Sample App</a><br>
 
 ### Quick Summary
-In this post, I will show you how to change the text on Google's Sign-In button using standard `android:text` attribute, which is missing from the Google's <a href="https://developers.google.com/android/reference/com/google/android/gms/common/SignInButton" target="_blank">SignInButton</a>. I'll also show you, how you can switch between dark and light button themes. At the end of the post, a ready to use small Android library in included along with a sample application to try the same. 
+In this post, I will show you how to change the text on Google's Sign-In button using standard `android:text` attribute, which is missing from the Google's <a href="https://developers.google.com/android/reference/com/google/android/gms/common/SignInButton" target="_blank">SignInButton</a>. I'll also show you, how you can switch between dark and light button themes. At the end of the post, a ready to use small Android library is included along with a sample application to try the same. 
 
 ### Requirements
 * Android Studio.
@@ -69,7 +69,7 @@ Light Theme (White)        |  Dark Theme (Blue)
 ### Why a library?
 "Why create a library for this? Aren't there already tons of libraries already?", you would say. This library was result of the issues I faced when trying to set text on the `SignInButton`. I don't like using hacks and since you are here, this far in the article, I would assume you don't either. If the underlying implementation of Google's `SignInButton` changes, the hack would break. The ideal Google recommended solution from the documentation is to create a custom button as mentioned on <a href="https://developers.google.com/identity/sign-in/android/custom-button" target="_blank">Customizing the Sign-In Button.</a>It specifies the [branding guidelines](https://developers.google.com/identity/branding-guidelines#sign-in-button) which includes using custom icons and images for the button, setting specific text size, paddings and other do's and don'ts for the logo.
 
-As you can see the ideal solution involves some extra work. Instead of creating a custom button just for my usage, I wanted to write some re-usable code, which I can drag and drop in any of my projects and it would work out of the box. That's why I decided to create a small 3.93 KB library, so that anyone facing this issue need not spend time implementing a custom solution and can get the custom Google Sing-In button working in no time.
+As you can see the ideal solution involves some extra work. Instead of creating a custom button just for my usage, I wanted to write some re-usable code, which I can drag and drop in any of my projects and it would work out of the box. That's why I decided to create a small 3.93 KB library, so that anyone facing this issue need not spend time implementing a custom solution and can get the custom Google Sign-In button working in no time.
 
 ### Source Code and Sample Android Application
 You can find the implementation of the library and a sample Android application that is using the library here: <a href="https://github.com/shobhitpuri/custom-google-signin-button" target="_blank">https://github.com/shobhitpuri/custom-google-signin-button</a>. Feel free to give any feedback on the article or library. If you come across any issues, you are more than welcome to create an issue or open a pull request.
