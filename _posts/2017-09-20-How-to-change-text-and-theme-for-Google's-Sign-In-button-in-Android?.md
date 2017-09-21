@@ -9,6 +9,7 @@ comments: true
 tags: [ CodeMonkey ]
 published: true
 ---
+
 ### Index
 - <a href="#quick-summary">Summary</a><br>
 - <a href="#requirements">Requirements</a><br>
@@ -19,7 +20,7 @@ published: true
 - <a href="#source-code-and-sample-android-application">Source Code / Sample App</a><br>
 
 ### Quick Summary
-In this post, I will show you how to change the text on Google's Sign-In button using standard `android:text` attribute, which is missing from the [Google's SignInButton](https://developers.google.com/identity/sign-in/android/sign-in#add_the_google_sign-in_button_to_your_app). I'll also show you, how you can switch between dark and light button themes. At the end of the post, a ready to use small Android library in included along with a sample application to try the same. 
+In this post, I will show you how to change the text on Google's Sign-In button using standard `android:text` attribute, which is missing from the Google's <a href="https://developers.google.com/android/reference/com/google/android/gms/common/SignInButton" target="_blank">SignInButton</a>. I'll also show you, how you can switch between dark and light button themes. At the end of the post, a ready to use small Android library in included along with a sample application to try the same. 
 
 ### Requirements
 * Android Studio.
