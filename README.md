@@ -3,7 +3,7 @@
 
 CleanBlogEnhanced is a ready-to-use template to help you create an awesome website quickly. Perfect for personal blogs or simple project websites.
 
-Jekyll blog based on [Clean Blog](http://startbootstrap.com/template-overviews/clean-blog/).
+Jekyll blog based on [Clean Blog](https://startbootstrap.com/template-overviews/clean-blog/).
 
 List of features :
 * Subfolder for blog, landing page different than blog
@@ -17,7 +17,6 @@ List of features :
 * Jekyll collection for portfolio
 * Serverless search using javascript
 * Minimalistic Error 404 page
-* A solid [guide](http://shikherverma.com/blog/Yet-Another-Jekyll-Blog) on how to customize or remove individual features.
 
 ## Usage
 
@@ -25,7 +24,7 @@ List of features :
 * Rename to `username.github.io`
 * Modify the `_config` file
 * Replace all the posts and images with your data
-* In depth description of how to use this template is [here](http://shikherverma.com/blog/Yet-Another-Jekyll-Blog)
+* In depth description of how to use this template is [here](www.shikherverma.com/blog/Yet-Another-Jekyll-Blog)
 
 ## Questions, Bugs and Issues
 
