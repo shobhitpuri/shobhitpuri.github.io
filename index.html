@@ -66,7 +66,8 @@ It means that the foremost requirement of happiness is a healthy body. Second is
 	</div>
 
 	<div class="row">
-		{% for item in site.portfolio %}
+		{% assign sorted = site.portfolio | sort: 'date' | reverse %}
+		{% for item in sorted %}
 		<div class="col-sm-4 portfolio-item">
 			<a href="#{{ item.anchor }}" class="portfolio-link" data-keyboard="true" data-toggle="modal">
 				<div class="caption" >
